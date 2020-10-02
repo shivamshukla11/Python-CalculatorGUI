@@ -47,7 +47,7 @@ class Window(Frame):
         
         # SETUP WIDGETS
 
-        message = lambda : messagebox.showinfo(title="About", message="A GUI Calculator coded in Python 3 by Harry Brenton")
+        message = lambda : messagebox.showinfo(title="About", message="A GUI Calculator coded in Python 3 by Harry Brenton\n you can use our gui pannel for calculation or your external keyboard")
         message2 = lambda : messagebox.showinfo(title="Help", message="Go to: www.raspibotics.wixsite.com/blog")
 
         menubar = Menu(self)
